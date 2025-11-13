@@ -1,0 +1,18 @@
+{
+  "databases": {
+    "ms_meta": {
+      "tables": {
+        "ms_meta_test_datasette": {
+          "facets": ["date", "area", "field", "subject", "category"],
+          "label": "Missionary Sketches",
+          "columns": {
+            "thumb": {
+              "label": "Image",
+              "type": "html"
+            }
+          }
+        }
+      }
+    }
+  }
+}
