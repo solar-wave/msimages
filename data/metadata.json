@@ -14,5 +14,13 @@
         }
       }
     }
+  },
+  "plugins": {
+    "datasette-cluster-map": {
+      "ms_meta_test_datasette": {
+        "latitude_column": "latitude",
+        "longitude_column": "longitude"
+      }
+    }
   }
 }
